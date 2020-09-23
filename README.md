@@ -16,7 +16,7 @@ Next, in the terminal, enter python, then:<br>
 `>>> from url_shortner import create_app`<br>
 `>>> from url_shortner.extensions import db`<br>
 `>>> from url_shortner.models import Link`<br>
-`>>> db.create.all(app=create_app())`<br>
+`>>> db.create_all(app=create_app())`<br>
 `>>> exit()`<br>
 
 
