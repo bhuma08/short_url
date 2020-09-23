@@ -1,3 +1,17 @@
-Old Link : {{ original_url }} <br/>
-<!-- New Link : {{ new_link }} -->
-New Link : {{ url_for('short.redirect_to_url', short_url=new_link, _external=True) }}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles/add.css') }}"> 
+    <link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
+    <title>Document</title>
+</head>
+<body>
+
+        Old Link : {{ original_url }} <br/>
+        <!-- New Link : {{ new_link }} -->
+        New Link : {{ url_for('short.redirect_to_url', short_url=new_link, _external=True) }}
+    
+</body>
+</html>
