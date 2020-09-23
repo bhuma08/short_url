@@ -12,7 +12,7 @@ SQLALCHEMY_DATABASE_URI = os.environ.get('DATABASE_URL')
 With this:
 SQLALCHEMY_DATABASE_URI = 'sqlite:///db.sqlite3'
 ```
-Next, in the terminal, enter python:<br>
+Next, in the terminal, enter python, then:<br>
 `>>> from url_shortner import create_app`<br>
 `>>> from url_shortner.extensions import db`<br>
 `>>> from url_shortner.models import Link`<br>
