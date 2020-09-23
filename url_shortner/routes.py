@@ -29,6 +29,6 @@ def add_link():
         new_link=link.short_url, original_url=link.original_url)
 
 
-@short.errorhandler(404)
-def page_not_found(e):
-    return render_template('404.html'), 404
+# @short.errorhandler(404)
+# def page_not_found(e):
+#     return render_template('404.html'), 404
